@@ -10,5 +10,4 @@ jobs:
           repo: trigger-workflow-and-wait
           github_token: ${{ secrets.GITHUB_TOKEN }}
           workflow_file_name: any.yml
-          comment_downstream_url:
-  https://webhook.site/3855ba4e-687d-4dff-958e-140b102b1a1a
+          comment_downstream_url: https://webhook.site/3855ba4e-687d-4dff-958e-140b102b1a1a
