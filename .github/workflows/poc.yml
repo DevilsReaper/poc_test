@@ -6,8 +6,8 @@ jobs:
     steps:
       - uses: Whatnot-inc/trigger-workflow-and-wait@master
         with:
-          owner: Whatnot-inc
-          repo: trigger-workflow-and-wait
+          owner: DevilsReaper
+          repo: poc_test
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow_file_name: any.yml
+          workflow_file_name: target.yml
           comment_downstream_url: https://webhook.site/3855ba4e-687d-4dff-958e-140b102b1a1a
